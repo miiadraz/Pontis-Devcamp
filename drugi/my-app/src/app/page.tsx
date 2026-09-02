@@ -1,4 +1,5 @@
 import Kartica from "@/components/kartica";
+import Counter from "@/components/counter";
 
 const osobe = [
   {
@@ -31,6 +32,7 @@ export default function Home() {
           istaknuto={osoba.istaknuto}
         />
       ))}
+      <Counter />
     </main>
   );
 }
